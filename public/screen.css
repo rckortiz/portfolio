@@ -21,6 +21,12 @@ body {
 }
 
 #header {
+  border: 5px solid rebeccapurple;
+}
+
+#header .profile-photo {
+  max-width: 100%;
+  height: auto;
 }
 
 #content-bar {
@@ -29,10 +35,10 @@ body {
   width: 100%;
 }
 
-.profile-photo {
+#content-bar .profile-photo {
   display: flex;
   border: 5px solid white;
-  margin: 5%;
+  flex-shrink: ;
 }
 
 .articlebox {
