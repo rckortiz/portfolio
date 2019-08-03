@@ -9,10 +9,10 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-image: url(/images/starsatnight.jpg);
+  background-image: url(/images/space.jpg);
 }
 
-#container {
+.container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -20,30 +20,44 @@ body {
   border: 5px solid white;
 }
 
-#header {
+.header {
+  display: flex;
   border: 5px solid rebeccapurple;
 }
 
-#header .profile-photo {
-  max-width: 100%;
-  height: auto;
+.header .profile-photo {
+  border: 5px solid white;
+  margin-left: 20rem;
+  margin-top: 5rem;
+  justify-content: center;
 }
 
-#content-bar {
+.speechbubble {
+  position: absolute;
+  border: 5px solid white;
+  width: 40rem;
+  justify-content: center;
+  margin: auto;
+  background-color: gray;
+  opacity: 50%;
+}
+
+.content-bar {
   display: flex;
   border: 5px solid green;
   width: 100%;
-}
-
-#content-bar .profile-photo {
-  display: flex;
-  border: 5px solid white;
-  flex-shrink: ;
+  color: white;
+  justify-content: space-evenly;
 }
 
 .articlebox {
   display: flex;
   border: 5px solid orange;
+}
+
+.articlebox-header1 {
+  display: flex;
+  border: 5px solid yellow;
 }
 
 .footer {
@@ -53,4 +67,36 @@ body {
 
 .twitter-icon {
   border-radius: 50rem;
+}
+
+.content-bar ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-bar ul li {
+}
+
+.photo1 {
+  margin: auto;
+  margin-right: 10px;
+}
+
+.photo3 {
+  margin-left: 10px;
+}
+
+.photo4 {
+  margin-left: 10px;
+}
+
+.react-photo {
+  height: 30px;
+}
+
+* {
+  outline: 1px solid red;
 }
