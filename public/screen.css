@@ -76,13 +76,26 @@ body {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: space-between;
+}
+
+.footer h1 {
+  padding-left: 20rem;
+  color: white;
 }
 
 .twitter-icon {
   border-radius: 50rem;
   width: 7%;
+}
+
+.twitter-icon-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  left: 1rem;
 }
 
 .content-bar ul {
@@ -126,5 +139,4 @@ body {
 }
 
 * {
-  outline: 1px solid red;
 }
